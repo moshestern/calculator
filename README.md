@@ -1,7 +1,7 @@
 # Calculator
 
-Simple 2 pages application -\
-1. page 1 - simple login.\
+Simple 2 pages application -
+1. page 1 - simple login.
 2. page 2 - 2 tabs for calculator and history page (for last 20 clicked keys).
 
 
