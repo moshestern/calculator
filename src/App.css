@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #85a49c;
+  color: #222;
+  font-weight: 500;
+}
+
+.App {
+  text-align: center;
+}

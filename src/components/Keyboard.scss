@@ -1,0 +1,29 @@
+.keyboard {
+    display: grid;
+    gap: 0.75em;
+    grid-template-columns: repeat(4, 1fr);
+
+    >span {
+        background-color: #f6be61;
+        border-radius: 25px;
+        color: #222;
+        cursor: pointer;
+        padding: 1em 0;
+        font-weight: bold;
+        user-select: none;
+        box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+        
+        &:active {
+            box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
+            transform: translateY(2px);
+        }
+
+        &.ac {
+            background-color: #f5cac3;
+        }
+
+        &.calc {
+            background-color: #f38584;
+        }
+    }
+}

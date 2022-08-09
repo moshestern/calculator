@@ -1,0 +1,44 @@
+.login-form {
+    display: inline-block;
+    padding: 30px;
+    margin: 100px auto;
+    text-align: left;
+    border: 1px solid #222;
+    background: #f7ede3;
+    border-radius: 5px;
+
+    > div {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+
+        input {
+            padding: 8px 5px;
+            border: 1px solid #222;
+            border-radius: 5px;
+        }
+    }
+
+    .login-btn {
+        flex-direction: row-reverse;
+        margin-bottom: 0;
+        
+        button {
+            all: unset;
+            padding: 4px 25px 6px;
+            background: #f6be61;
+            border: 1px solid #222;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+
+    .error-msg {
+        color: red;
+        font-size: 12px;
+        height: 0;
+        margin: 0;
+    }
+}
